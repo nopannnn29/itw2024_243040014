@@ -1,35 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-
 body {
 	line-height: 1;
 }
@@ -47,59 +15,64 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
+
+
+
+
 
 /* style */
-
 body{
-    font: 16/28px arial,sans-serif;
-    background-color: blue;
-    color: #948ddb;
-    background-image: url(sativa.webp);
+    font: 16px/28px serif;
+    background-color: #fcf9f9;
+    color: #ffffff;
+    background-image: url(christmas.jpg);
 }
 
-.container {
+.container{
     width: 800px;
     margin: auto;
-    background-color: rgb(23, 18, 73);
+    background-color: #4c4e4e;
 }
- 
+
 .header{
-    padding: 20px;  
+    padding: 20px;
+    padding-bottom: 10px
 }
-.header .judul {
+
+.header .judul{
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
 }
- 
 .header ul li{
     display: inline-block;
     margin-top: 20px;
     margin-right: 10px;
-    
 }
-.header a{
+
+.header a {
     text-decoration: none;
-    color: #948ddb;
+    color: rgb(118, 250, 114);
     padding: 3px;
 }
 
 .header a:hover{
-    background-color: lightskyblue;
-    color:white
+    background-color: rgb(219, 20, 20);
+    color: white;
 }
-.hero {
-    height: 300px;
-    background-image: url(frx.jpg);
+
+.hero{
+    height: 350px;
+    background-image: url(backround.jpg);
     background-size: cover;
-    background-position: 0 -60px;
-    border-top: 5px solid rgb(11, 11, 63);
-    border-bottom: 5px solid rgb(11, 11, 63);
+    background-position: 0 5020px;
+    border-top: 5px solid rgb(118, 250, 114);
+    border-bottom: 5px solid rgb(219, 20, 20);
 }
 
 .content{
     padding: 20px;
+
 }
 
 .content h2{
@@ -107,30 +80,28 @@ body{
     font-weight: bold;
 }
 
-.content .penulis {
+.content .penulis{
     font-size: 11px;
-    margin-top: -1px;
+    margin-top: 5px;
 }
 
-.content .penulis a {
-    color: red;
+.content .penulis a{
+    color:rgb(219, 20, 20);
     text-decoration: none;
 }
 
-.content p {
-    margin-bottom: 30px;
-    font-size: 17px;
-    line-height: 2.0;
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .footer{
-    background-color: rgb(8, 8, 32);
-    padding: 20px;
+    background-color: rgb(219, 20, 20);
+    padding: 10px;
 }
 
-.footer .copy{
-    color:#eaeaea;
+.footer .copy {
+    color: #eaeaea;
     text-align: center;
-    font-size: 13px;
-
+    font-size:  12px;
 }
